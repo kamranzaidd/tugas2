@@ -1,0 +1,112 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: white;
+}
+
+.tau {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+.logo h1 {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-top: -50px;
+    margin-right: 10px;
+}
+
+.nav a {
+    text-decoration: aqua;
+    color: rgb(13, 204, 218);
+    padding: 3px;
+}
+
+.nav a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.gambar {
+    border-top: 500px rebeccapurple;
+    border-bottom: 5px brown;
+}
+
+.lift {
+    width: 650px;
+    padding: 2px;
+    box-sizing: border-box;
+    float: left;
+    text-align: justify;
+
+}
+
+.lift .penulis {
+    font-size: 11px;
+    margin-top: -25px;
+}
+
+.lift .penulis a {
+    color: rgb(13, 204, 218);
+    text-decoration: none;
+}
+
+.lift p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.right {
+    width: 330px;
+    box-sizing: border-box;
+    float: right;
+    text-align: justify;
+}
+
+.right h3 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.right img {
+    margin-top: -15px;
+    float: left;
+    padding-right: 10px;
+}
+
+.right p {
+    margin-top: -22px;
+    font-size: 12px;
+}
+
+.footer {
+    background-color: black;
+    padding: 1px;
+}
+
+.footer .copy {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
